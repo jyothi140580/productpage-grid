@@ -1,10 +1,12 @@
 .grid-container{
-    border: 1px solid #fdf9f9;
+    /*border: 1px solid #fdf9f9;*/
     display: grid;
     margin-left: 50px;
     margin-right: 50px;
-    grid-template-columns:1fr 1fr 1fr;
+   /* grid-template-columns:1fr 1fr 1fr;*/
    /* grid-template-columns:repeat(auto-fill, 100px);*/
+   grid-template-columns:repeat(auto-fit,minmax(300px, 1fr));
+  /* grid-template-columns: minmax(150px,1fr 1fr 1fr);*/
     gap: 10px;
 }
 
